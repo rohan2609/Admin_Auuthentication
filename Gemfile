@@ -24,6 +24,7 @@ gem 'responders'
 gem 'devise'
 gem 'cancancan'
 gem "paperclip", "~> 5.0.0.beta1"
+gem 'pg'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -43,6 +44,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
+  gem 'rails_12factor', group: :development
   gem 'selenium-webdriver'
 end
 
